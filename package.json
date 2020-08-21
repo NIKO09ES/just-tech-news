@@ -1,23 +1,23 @@
 {
   "name": "just-tech-news",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application where a user posts an article from another source and other users vote or comment on the post.",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIKO09ES/just-tech-news.git"
+    "url": "git+https://github.com/joshuaweisbrodtorres/just-tech-news.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NIKO09ES/just-tech-news/issues"
+    "url": "https://github.com/joshuaweisbrodtorres/just-tech-news/issues"
   },
-  "homepage": "https://github.com/NIKO09ES/just-tech-news#readme",
+  "homepage": "https://github.com/joshuaweisbrodtorres/just-tech-news#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.1",
@@ -29,6 +29,6 @@
     "sequelize": "^6.3.4"
   },
   "devDependencies": {
-    "jest": "^26.4.1"
+    "jest": "^26.4.0"
   }
 }
